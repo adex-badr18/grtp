@@ -1,5 +1,6 @@
 section#subscribe {
     background: url('/images/subscribe-bg.png');
+    background: url('../../assets/images/subscribe-bg.png');
     text-align: center;
     background-size: cover;
     background-attachment: fixed;

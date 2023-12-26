@@ -1,4 +1,5 @@
-import phoneHeader from '/images/phone-header-bg.png';
+// import phoneHeader from '/images/phone-header-bg.png';
+import phoneHeader from '../../assets/images/phone-header-bg.png';
 import './Header.css';
 import Button from '../UI/button/Button';
 import '../UI/button/Button.css';

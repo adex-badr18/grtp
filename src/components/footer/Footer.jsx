@@ -1,6 +1,7 @@
 import './Footer.css';
 import { FaMapMarkerAlt, FaPhoneAlt, FaFax, FaEnvelope, FaGlobe } from 'react-icons/fa';
-import logo from '/images/logo.png';
+// import logo from '/images/logo.png';
+import logo from '../../assets/images/logo.png';
 
 const Footer = () => {
     return (

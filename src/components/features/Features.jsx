@@ -1,5 +1,6 @@
 import { BsBookmarkStarFill } from "react-icons/bs";
-import phoneFeatures from '/images/phone-features.png';
+// import phoneFeatures from '/images/phone-features.png';
+import phoneFeatures from '../../assets/images/phone-features.png';
 import './Features.css';
 import Feature from "./Feature";
 import { featureList } from "./data";
