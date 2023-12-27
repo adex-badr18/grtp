@@ -2,7 +2,7 @@ import { BsInfoSquare } from "react-icons/bs";
 import objectivesImg from '../../assets/images/objectives.png';
 import './About.css';
 import Objective from "./Objective";
-import { objectives } from "./data";
+import { objectives } from "../../constants";
 import { useEffect } from "react";
 
 import AOS from 'aos';

@@ -5,7 +5,7 @@ import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
 import Button from '../UI/button/Button';
 import '../UI/button/Button.css';
-import { navLinks } from '../../constants/data';
+import { navLinks } from '../../constants';
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
