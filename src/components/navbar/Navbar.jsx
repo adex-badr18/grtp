@@ -6,6 +6,7 @@ import { RiCloseLine } from "react-icons/ri";
 import Button from '../UI/button/Button';
 import '../UI/button/Button.css';
 import { navLinks } from '../../constants';
+import logo from '../../assets/images/logo.png';
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -17,10 +18,12 @@ const Navbar = () => {
     return (
         <nav className='navbar container'>
             <div className="logo">
-                <SiAnaconda color='#FFFFFF' size={30} />
-                <p className="logo-text">
-                    GRT-<span>Pristine</span>
-                </p>
+                <a href="#header">
+                    <img src={logo} alt="" />
+                    <p className="logo-text">
+                        GRT-<span>Pristine</span>
+                    </p>
+                </a>
             </div>
 
             <menu>
@@ -30,7 +33,7 @@ const Navbar = () => {
                             <li key={link.id}><a href={`#${link.id}`}>{link.name}</a></li>
                         ))
                     }
-                    
+
                     <li className='nav-btn'>
                         {/* <a href="#" className='btn btn-dark'>Get Started</a> */}
                         <Button text='Get Started' btnClass='btn-dark' href='#faq' />

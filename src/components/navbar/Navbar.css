@@ -5,20 +5,24 @@
     height: 8rem;
 }
 
-.logo {
+.logo a {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.logo img {
+    width: 4.5rem;
+    margin-right: .5rem;
+}
+
 .logo-text {
-    font-size: 3.5rem;
-    font-weight: 300;
+    font-size: 2rem;
+    font-weight: 600;
     color: var(--color-white);
 }
 
 .logo-text span {
-    font-weight: 600;
     color: orangered;
 }
 
