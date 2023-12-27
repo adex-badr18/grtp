@@ -1,4 +1,4 @@
-import hero from '../../assets/images/financeImg.png';
+import hero from '../../assets/images/hero-img.png';
 import './Header.css';
 import Button from '../UI/button/Button';
 import '../UI/button/Button.css';
@@ -30,7 +30,6 @@ const Header = () => {
                     </p>
 
                     <div className="header-cta">
-                        {/* <Button text='Get Started' btnClass='btn-dark' href='#faq' /> */}
                         <Button text='How it Works' btnClass='btn-orange' href='#faq' />
                     </div>
                 </div>
