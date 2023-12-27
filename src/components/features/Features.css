@@ -3,16 +3,17 @@
     justify-content: center;
 }
 
-.features-left {
-    flex: 1;
-    text-align: center;
-}
-
-.features-left img {
-    width: 65%;
-}
-
 .features-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.features-right img {
+    width: 100%;
+}
+
+.features-left {
     flex: 1;
 }
 

@@ -1,4 +1,34 @@
 import { FaRegCreditCard, FaRegHandshake, FaScaleBalanced, FaWallet } from "react-icons/fa6";
+import { TbTargetArrow } from "react-icons/tb";
+import { TiShoppingCart } from "react-icons/ti";
+import { BsBank2 } from "react-icons/bs";
+
+export const featureList = [
+    {
+        id: 1,
+        icon: <TbTargetArrow color="#0A1930" size={22} />,
+        heading: "Target Savings",
+        text: 'Save for specific needs such as Hajj/Umrah, school fees, house rent, investments, etc.'
+    },
+    {
+        id: 2,
+        icon: <TiShoppingCart color="#0A1930" size={22} />,
+        heading: "Consumer Facilities",
+        text: 'Order regular consumables, make special commodity requests, and fulfill Ramadan and Eid needs.'
+    },
+    {
+        id: 3,
+        icon: <BsBank2 color="#0A1930" size={22} />,
+        heading: "Islamic Financial Products",
+        text: 'Engage in ethical financial services such as Investment Partnership (Mudharabah), Cost-plus Financing (Murabaha), Benevolent Lending (Qard), and Joint Enterprise (Musharaka).'
+    },
+    {
+        id: 4,
+        icon: <FaRegCreditCard color="#0A1930" size={22} />,
+        heading: "Interest-Free Loan",
+        text: ' Members can access funds without the burden of interest, providing a pathway to financial empowerment and growth without compromising ethical principles.'
+    },
+];
 
 export const objectives = [
     {
