@@ -40,7 +40,7 @@ const Header = () => {
             </div>
 
             <div className="floating-icon">
-                <a href="#features">
+                <a href="#about">
                     <BsMouse color='#FFFFFF' size={25} className='mouse' />
                 </a>
             </div>
