@@ -15,7 +15,7 @@ const Subscribe = () => {
     }, []);
 
     return (
-        <section id='subscribe'>
+        <section id='contact'>
             <div className="container subscribe" data-aos='zoom-in-left'>
                 <div className="u-title">
                     <h2>Contact Us</h2>
