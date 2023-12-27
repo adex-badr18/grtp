@@ -5,6 +5,7 @@ import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
 import Button from '../UI/button/Button';
 import '../UI/button/Button.css';
+import { navLinks } from '../../constants/data';
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -24,10 +25,12 @@ const Navbar = () => {
 
             <menu>
                 <ul className="nav-links" id={showMenu ? 'nav-links-mobile' : 'nav-links-mobile-hide'}>
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#download">Download</a></li>
-                    <li><a href="#subscribe">Subscribe</a></li>
+                    {
+                        navLinks.map(link => (
+                            <li><a href={`#${link.id}`}>{link.name}</a></li>
+                        ))
+                    }
+                    
                     <li className='nav-btn'>
                         {/* <a href="#" className='btn btn-dark'>Get Started</a> */}
                         <Button text='Get Started' btnClass='btn-dark' href='#faq' />
