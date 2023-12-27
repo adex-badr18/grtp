@@ -12,9 +12,9 @@ import 'aos/dist/aos.css';
 
 const Subscribe = () => {
     const form = useRef();
-    const serviceId = 'service_891ts8g';
-    const templateId = 'template_s3t1jwo';
-    const publicKey = 'iivIMhYID1vzDHFdr';
+    const serviceId = import.meta.env.VITE_SERVICE_ID;
+    const templateId = import.meta.env.VITE_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 
     useEffect(() => {
         AOS.init({
@@ -24,8 +24,6 @@ const Subscribe = () => {
 
     function sendEmail(e) {
         e.preventDefault();
-
-        console.log(form.current);
 
         emailjs.sendForm(serviceId, templateId, form.current, publicKey)
             .then(function (response) {
