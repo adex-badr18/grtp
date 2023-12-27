@@ -1,4 +1,3 @@
-// import phoneHeader from '/images/phone-header-bg.png';
 import hero from '../../assets/images/financeImg.png';
 import './Header.css';
 import Button from '../UI/button/Button';
