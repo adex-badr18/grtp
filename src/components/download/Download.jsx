@@ -27,15 +27,15 @@ const Download = () => {
                     <div className="download-icons">
                         <div className="download-icon">
                             <FaApple />
-                            <p>ios</p>
+                            <p>iOS</p>
                         </div>
                         <div className="download-icon">
                             <GrAndroid />
-                            <p>ios</p>
+                            <p>Android</p>
                         </div>
                         <div className="download-icon">
                             <FaWindows />
-                            <p>ios</p>
+                            <p>Windows</p>
                         </div>
                     </div>
                 </IconContext.Provider>

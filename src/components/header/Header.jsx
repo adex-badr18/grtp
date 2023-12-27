@@ -1,5 +1,5 @@
 // import phoneHeader from '/images/phone-header-bg.png';
-import phoneHeader from '../../assets/images/phone-header-bg.png';
+import hero from '../../assets/images/hero1.webp';
 import './Header.css';
 import Button from '../UI/button/Button';
 import '../UI/button/Button.css';
@@ -21,23 +21,23 @@ const Header = () => {
             <div className="container header">
                 <div className="header-left" data-aos='fade-right'>
                     <h1>
-                        <span>The World's Leading</span>
-                        <span>Cross-platform Secure</span>
-                        <span>Messaging System</span>
+                        <span>Your Gateway to</span>
+                        <span>Financial Freedom with</span>
+                        <span>Ethical Practices</span>
                     </h1>
 
                     <p className='u-text-small u-text-light'>
-                        SocialX is a Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Join a cooperative society where each member contributes to a tapestry of mutual growth, elevating lives through interest-free savings, credit, and unwavering community support.
                     </p>
 
                     <div className="header-cta">
-                        <Button text='Get Started' btnClass='btn-dark' href='#faq' />
+                        {/* <Button text='Get Started' btnClass='btn-dark' href='#faq' /> */}
                         <Button text='How it Works' btnClass='btn-orange' href='#faq' />
                     </div>
                 </div>
 
                 <div className="header-right" data-aos='fade-left'>
-                    <img src={phoneHeader} alt="Phone" />
+                    <img src={hero} alt="Business man making presentation" />
                 </div>
             </div>
 
