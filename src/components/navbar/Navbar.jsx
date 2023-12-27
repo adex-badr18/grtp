@@ -16,9 +16,9 @@ const Navbar = () => {
     return (
         <nav className='navbar container'>
             <div className="logo">
-                <SiAnaconda color='#FFFFFF' size={33} />
+                <SiAnaconda color='#FFFFFF' size={30} />
                 <p className="logo-text">
-                    Social<span>X</span>
+                    GRT-<span>Pristine</span>
                 </p>
             </div>
 
