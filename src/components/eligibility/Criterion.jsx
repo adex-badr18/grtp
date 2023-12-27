@@ -1,12 +1,12 @@
-import './Question.css';
+import './Criterion.css';
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 import { useState, useEffect } from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const Question = ({title, answer, animation}) => {
-    const [showAnswer, setShowAnswer] = useState(false);
+const Criterion = ({title, details, animation}) => {
+    const [showDetails, setShowDetails] = useState(false);
 
     useEffect(() => {
         AOS.init({
@@ -15,30 +15,30 @@ const Question = ({title, answer, animation}) => {
     }, []);
 
     function handleClick() {
-        setShowAnswer(!showAnswer);
+        setShowDetails(!showDetails);
     }
 
     return (
-        <div className='question' data-aos={animation}>
-            <div className="question-title">
+        <div className='criterion' data-aos={animation}>
+            <div className="criterion-title">
                 <h4>{title}</h4>
-                <button className="question-icon" onClick={handleClick}>
+                <button className="criterion-icon" onClick={handleClick}>
                     {
-                        showAnswer ? 
+                        showDetails ? 
                         <AiOutlineMinus color='red' /> :
                         <AiOutlinePlus color='#1F93FF' />
                     }
                 </button>
             </div>
 
-            <div className="question-answer">
+            <div className="criterion-details">
                 {
-                    showAnswer &&
-                    <p className="u-text-small u-text-dark">{answer}</p>
+                    showDetails &&
+                    <p className="u-text-small u-text-light">{details}</p>
                 }
             </div>
         </div>
     )
 }
 
-export default Question;
+export default Criterion;

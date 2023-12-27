@@ -27,6 +27,26 @@ export const objectives = [
     },
 ];
 
+export const criteria = [
+    {
+        id: 1,
+        title: 'Religion',
+        details: 'You must be a muslim of reputable character.',
+        animation: 'fade-left',
+    },
+    {
+        id: 2,
+        title: 'Adult',
+        details: 'You must be a responsible adult of not less than Eighteen (18) years of age.',
+        animation: 'fade-right',
+    },
+    {
+        id: 3,
+        title: 'Residency',
+        details: 'You must be a resident of Kano State.',
+        animation: 'fade-left',
+    },
+];
 
 export const navLinks = [
     {

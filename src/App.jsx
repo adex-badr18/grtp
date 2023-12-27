@@ -1,6 +1,6 @@
 import './App.css';
 
-import { Navbar, Header, About, Features, Download, Subscribe, Faq, Footer } from './components';
+import { Navbar, Header, About, Features, Download, Subscribe, Eligibility, Footer } from './components';
 
 function App() {
 
@@ -11,10 +11,10 @@ function App() {
                 <Header />
             </header>
             <About />
+            <Eligibility />
             <Features />
             <Download />
             <Subscribe />
-            <Faq />
             <Footer />
         </main>
     )

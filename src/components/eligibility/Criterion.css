@@ -1,4 +1,4 @@
-.question {
+.criterion {
     border: 1px solid var(--light-blue);
     border-radius: 3px;
     width: 90%;
@@ -8,20 +8,21 @@
     box-shadow: var(--box-shadow);
 }
 
-.question-title {
+.criterion-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.question-title h4 {
+.criterion-title h4 {
     font-size: 1.4rem;
     font-weight: 600;
+    color: rgba(45, 165, 255, 1);
     line-height: 1.4;
     text-transform: uppercase;
 }
 
-button.question-icon {
+button.criterion-icon {
     border: 1px solid var(--color-gray);
     height: 3rem;
     width: 3rem;

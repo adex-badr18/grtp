@@ -27,7 +27,7 @@ const Navbar = () => {
                 <ul className="nav-links" id={showMenu ? 'nav-links-mobile' : 'nav-links-mobile-hide'}>
                     {
                         navLinks.map(link => (
-                            <li><a href={`#${link.id}`}>{link.name}</a></li>
+                            <li key={link.id}><a href={`#${link.id}`}>{link.name}</a></li>
                         ))
                     }
                     
