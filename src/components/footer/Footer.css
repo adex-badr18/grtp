@@ -2,14 +2,15 @@ footer#footer {
     background: var(--dark-blue);
     color: var(--color-white);
     width: 100%;
-    padding: 8rem 0;
-    
+    padding: 8rem 0 0;
+
 }
 
-.footer {
+footer .footer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     gap: 2rem;
+    padding-bottom: 3rem;
 }
 
 .footer h4 {
@@ -22,7 +23,7 @@ footer#footer {
 
 .footer-links {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
 }
 
 .footer-links a {
@@ -33,4 +34,40 @@ footer#footer {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
+}
+
+.footer-contact p svg {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+.footer-contact p span {
+    width: 90%;
+}
+
+.footer-box img {
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+
+.footer-box .footer-brand {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box .footer-brand p {
+    font-size: 1rem;
+    margin-top: -.8rem;
+    width: 80%;
+}
+
+.footer-box .footer-brand p span.motto {
+    font-weight: 700;
+}
+
+footer#footer div.copyright {
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 1px solid #666666;
+    margin: 0 auto;
 }

@@ -8,51 +8,61 @@ const Footer = () => {
         <footer id='footer'>
             <div className="container footer">
                 <div className="footer-box">
+                    <div className="footer-brand">
+                        <img src={logo} alt="GRTP logo" />
+                        <h4>GRT-Pristine</h4>
+                        <p className='u-text-small'><span className='motto'>Motto:</span> Help one another in goodness and piety</p>
+                    </div>
+                </div>
+
+                <div className="footer-box">
                     <h4>Useful Links</h4>
                     <div className="footer-links">
-                        <a href="#">&bull; Support</a>
-                        <a href="#">&bull; About</a>
-                        <a href="#">&bull; Learn</a>
-                        <a href="#">&bull; Hosting</a>
-                        <a href="#">&bull; Messenger</a>
+                        <a href="#header">&bull; Home</a>
+                        <a href="#about">&bull; About</a>
+                        <a href="#eligibility">&bull; Eligibility</a>
+                        <a href="#services">&bull; Services</a>
+                        <a href="#contact">&bull; Contact</a>
                     </div>
                 </div>
                 <div className="footer-box">
-                <h4>Support</h4>
+                    <h4>Our Services</h4>
                     <div className="footer-links">
-                        <a href="#">&bull; Support</a>
-                        <a href="#">&bull; About</a>
-                        <a href="#">&bull; Learn</a>
-                        <a href="#">&bull; Hosting</a>
-                        <a href="#">&bull; Messenger</a>
+                        <a href="#">&bull; Target Savings</a>
+                        <a href="#">&bull; Consumer Facility</a>
+                        <a href="#">&bull; Islamic Financial Products</a>
+                        <a href="#">&bull; Monthly Savings</a>
+                        <a href="#">&bull; Credit Facility</a>
                     </div>
                 </div>
+
                 <div className="footer-box">
                     <h4>Contact Us</h4>
                     <div className="footer-contact">
                         <p className='u-text-small u-text-light'>
-                            <FaMapMarkerAlt /> &#160; Address: United States. 
+                            <FaMapMarkerAlt />
+                            <span>73, Rijiyar Zaki Kudu Ibrahim Khalil Street, Gwarzo Road Kano.</span>
                         </p>
                         <p className='u-text-small u-text-light'>
-                            <FaPhoneAlt /> &#160; Phone: +234 806 484 4004  
+                            <FaPhoneAlt />
+                            <span>07032317688 | 08060340986</span>
                         </p>
                         <p className='u-text-small u-text-light'>
-                            <FaFax /> &#160; Fax: +1234567890
+                            <FaEnvelope /> 
+                            <span>grtpristinemulticoop@gmail.com</span>
                         </p>
                         <p className='u-text-small u-text-light'>
-                            <FaEnvelope /> &#160; Email: info@socialx.com
-                        </p>
-                        <p className='u-text-small u-text-light'>
-                            <FaGlobe /> &#160; website: www.socialx.com 
+                            <FaGlobe /> 
+                            <span>www.grtpristine.com</span>
                         </p>
                     </div>
                 </div>
-                <div className="footer-box">
-                    <img src={logo} alt="SocialX logo" />
-                    <p className="u-text-small">
-                        &copy; Copyright {new Date().getFullYear()}. SocialX.com
-                    </p>
-                </div>
+            </div>
+
+            <div className="copyright">
+                <p className="u-text-small">
+                    &copy; Copyright {new Date().getFullYear()} GRT-PRISTINE. All Rights Reserved
+                </p>
             </div>
         </footer>
     )
