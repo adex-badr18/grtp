@@ -30,7 +30,7 @@ const Header = () => {
                     </p>
 
                     <div className="header-cta">
-                        <Button text='How it Works' btnClass='btn-orange' href='#faq' />
+                        <Button text='Get Started' btnClass='btn-orange' href='#about' />
                     </div>
                 </div>
 

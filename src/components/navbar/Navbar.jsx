@@ -36,7 +36,7 @@ const Navbar = () => {
 
                     <li className='nav-btn'>
                         {/* <a href="#" className='btn btn-dark'>Get Started</a> */}
-                        <Button text='Get Started' btnClass='btn-dark' href='#faq' />
+                        <Button text='Get Started' btnClass='btn-dark' href='#about' />
                     </li>
                 </ul>
             </menu>
