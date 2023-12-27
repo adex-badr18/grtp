@@ -1,0 +1,27 @@
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about-left {
+    flex: 1;
+    text-align: center;
+}
+
+.about-left img {
+    width: 65%;
+}
+
+.about-right {
+    flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-right {
+        margin-top: 2.5rem;
+    }
+}

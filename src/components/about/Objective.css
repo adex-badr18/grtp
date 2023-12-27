@@ -1,0 +1,25 @@
+.objective {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.objective-icon {
+    position: relative;
+    margin-right: 2rem;
+}
+
+.inner-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.objective-text h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: var(--light-blue);
+}

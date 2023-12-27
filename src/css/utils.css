@@ -20,7 +20,7 @@
 
 .u-title h2 {
     font-size: 2.5rem;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.4;
     text-transform: uppercase;
     color: var(--dark-text);
@@ -28,7 +28,14 @@
 }
 
 .u-title p {
-    width: 50%;
+    font-size: 1.6rem;
+    width: 55%;
     min-width: 25rem;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .u-title p {
+        width: 75%;
+    }
 }
