@@ -4,3 +4,7 @@
     min-height: 100vh;
     background-color: var(--dark-blue);
 }
+
+.toastBody {
+    font-size: 1.6rem !important;
+}

@@ -80,10 +80,6 @@ export const criteria = [
 
 export const navLinks = [
     {
-        id: 'home',
-        name: 'Home'
-    },
-    {
         id: 'about',
         name: 'About'
     },

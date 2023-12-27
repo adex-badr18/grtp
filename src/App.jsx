@@ -13,7 +13,7 @@ function App() {
             <About />
             <Eligibility />
             <Features />
-            <Download />
+            {/* <Download /> */}
             <Subscribe />
             <Footer />
         </main>
