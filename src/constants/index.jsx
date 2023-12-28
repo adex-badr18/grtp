@@ -1,4 +1,5 @@
 import { FaRegCreditCard, FaRegHandshake, FaScaleBalanced, FaWallet } from "react-icons/fa6";
+import { FaMapMarkerAlt, FaPhoneAlt, FaFax, FaEnvelope, FaGlobe } from 'react-icons/fa';
 import { TbTargetArrow } from "react-icons/tb";
 import { TiShoppingCart } from "react-icons/ti";
 import { BsBank2 } from "react-icons/bs";
@@ -96,3 +97,49 @@ export const navLinks = [
         name: 'Contact'
     },
 ];
+
+export const footerServices = [
+    {
+        id: 'target-savings',
+        name: 'Target Savings'
+    },
+    {
+        id: 'consumer-facilities',
+        name: 'Consumer Facilities'
+    },
+    {
+        id: 'islamic-financial-products',
+        name: 'Islamic Financial Products'
+    },
+    {
+        id: 'monthly-savings',
+        name: 'Monthly Savings'
+    },
+    {
+        id: 'credit-facilities',
+        name: 'Credit Facilities'
+    },
+];
+
+export const contactInfo = [
+    {
+        id: 'address',
+        icon: <FaMapMarkerAlt />,
+        info: '73, Rijiyar Zaki Kudu Ibrahim Khalil Street, Gwarzo Road Kano.',
+    },
+    {
+        id: 'phone',
+        icon: <FaPhoneAlt />,
+        info: '07032317688 | 08060340986',
+    },
+    {
+        id: 'email',
+        icon: <FaEnvelope /> ,
+        info: 'grtpristinemulticoopsltd@gmail.com',
+    },
+    {
+        id: 'website',
+        icon: <FaGlobe />,
+        info: 'www.grtpristine.com',
+    },
+]
