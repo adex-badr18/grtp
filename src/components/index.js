@@ -6,3 +6,4 @@ export {default as Download} from './download/Download';
 export {default as Subscribe} from './subscribe/Subscribe';
 export {default as Eligibility} from './eligibility/Eligibility';
 export {default as Footer} from './footer/Footer';
+export {default as ScrollToTop} from './UI/scrollToTop/ScrollToTop';

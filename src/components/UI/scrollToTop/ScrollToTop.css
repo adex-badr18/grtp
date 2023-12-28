@@ -1,0 +1,15 @@
+.scroll-to-top-btn {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    background: transparent;
+    z-index: 1000;
+    cursor: pointer;
+
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid #f704f7;
+    background: #f704f7;
+}
