@@ -13,3 +13,9 @@
     border: 1px solid #f704f7;
     background: #f704f7;
 }
+
+@media screen and (max-width: 600px) {
+    .scroll-to-top-btn {
+        display: none;
+    }
+}
