@@ -27,7 +27,7 @@ footer .footer {
 }
 
 .footer-links a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .footer-contact p {
@@ -70,4 +70,10 @@ footer#footer div.copyright {
     text-align: center;
     border-top: 1px solid #666666;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-links a {
+        font-size: 1.2rem;
+    }
 }
