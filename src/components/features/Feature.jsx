@@ -17,4 +17,4 @@ const Feature = ({ icon, heading, text }) => {
     )
 }
 
-export default Feature
+export default Feature;

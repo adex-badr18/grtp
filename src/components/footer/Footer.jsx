@@ -1,5 +1,4 @@
 import './Footer.css';
-import { FaMapMarkerAlt, FaPhoneAlt, FaFax, FaEnvelope, FaGlobe } from 'react-icons/fa';
 import logo from '../../assets/images/logo.png';
 import { navLinks, footerServices, contactInfo } from '../../constants';
 

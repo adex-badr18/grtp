@@ -142,4 +142,4 @@ export const contactInfo = [
         icon: <FaGlobe />,
         info: 'www.grtpristine.com',
     },
-]
+];

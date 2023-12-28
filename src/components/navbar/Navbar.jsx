@@ -1,6 +1,5 @@
 import './Navbar.css';
 import { useState } from 'react';
-import { SiAnaconda } from "react-icons/si";
 import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
 import Button from '../UI/button/Button';
