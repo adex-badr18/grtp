@@ -7,7 +7,8 @@ a {
 }
 
 a:hover {
-    color: orangered;
+    color: var(--color-purple);
+    font-weight: 500;
 }
 
 a.btn {
@@ -21,8 +22,13 @@ a.btn-dark {
     background: transparent;
 }
 
-a.btn-orange {
+a.btn-purple {
     border: 2px solid transparent;
-    background: orangered;
+    background: #f704f7;
     color: var(--color-white);
+}
+
+a.btn-purple:hover {
+    background-color: transparent;
+    border: 2px solid #f704f7;
 }

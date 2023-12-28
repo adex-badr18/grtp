@@ -5,7 +5,7 @@ const Objective = ({ icon, heading, text }) => {
     return (
         <div className="objective">
             <div className="objective-icon">
-                <BsHexagon color="orangered" size={55} />
+                <BsHexagon color="#fa43fa" size={55} />
                 <div className="inner-icon">{icon}</div>
             </div>
 

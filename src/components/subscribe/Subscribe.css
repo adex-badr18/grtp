@@ -77,6 +77,10 @@ form button {
     cursor: pointer;
 }
 
+form button:hover {
+    background-color: var(--light-blue);
+}
+
 .social-icons {
     display: flex;
     justify-content: center;

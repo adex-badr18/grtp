@@ -19,7 +19,7 @@ const About = () => {
         <section id="about">
             <div className="container about">
                 <div className="u-title" data-aos='fade-down'>
-                    <BsInfoSquare color="orangered" size={30} />
+                    <BsInfoSquare color="#fa43fa" size={30} />
                     <h2>About Us</h2>
                     <p className="u-text-small u-text-dark">
                         Gwarzo Road Teachers' Pristine Multipurpose Cooperative Society Limited (GRT-PRISTINE) is more than a financial institution; it's a commitment to ethical finance tailored to meet the diverse needs of the Muslim Ummah.

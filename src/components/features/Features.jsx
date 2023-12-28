@@ -19,7 +19,7 @@ const Features = () => {
         <section id="services">
             <div className="container features">
                 <div className="u-title" data-aos='fade-down'>
-                    <BsBookmarkStarFill color="orangered" size={30} />
+                    <BsBookmarkStarFill color="#fa43fa" size={30} />
                     <h2>Core Services</h2>
                     <p className="u-text-small u-text-dark">
                     Discover a suite of tailored services at GRT-PRISTINE designed to elevate your financial experience. From interest-free credit solutions to specialized savings plans.
