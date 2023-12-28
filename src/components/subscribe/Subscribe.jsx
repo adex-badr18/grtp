@@ -1,6 +1,7 @@
 import './Subscribe.css';
 import { TiSocialGooglePlus } from 'react-icons/ti';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { LuMailQuestion } from "react-icons/lu";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -48,9 +49,10 @@ const Subscribe = () => {
 
     return (
         <section id='contact'>
+            <ToastContainer bodyClassName='toastBody' />
             <div className="container subscribe" data-aos='zoom-in-left'>
-                <ToastContainer bodyClassName='toastBody' />
                 <div className="u-title">
+                    <LuMailQuestion color="#fa43fa" size={30} />
                     <h2>Contact Us</h2>
                     <p className="u-text-small">Have questions or need assistance? Our dedicated team is here to help. Fill the form below to send us a message.</p>
                 </div>
