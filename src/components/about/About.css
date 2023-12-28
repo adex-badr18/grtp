@@ -5,11 +5,12 @@
 
 .about-left {
     flex: 1;
+    align-self: center;
     text-align: center;
 }
 
 .about-left img {
-    width: 65%;
+    width: 90%;
 }
 
 .about-right {
